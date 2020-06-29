@@ -1,0 +1,68 @@
+b_num = list(input("Input a binary number: "))
+value = 0
+
+for i in range(len(b_num)):
+	digit = b_num.pop()
+	if digit == '1':
+		value = value + pow(2, i)
+print("The decimal value of the number is", value)
+
+
+
+
+
+
+
+k=int(input('enter a num'))
+for i in range(1,11):
+        print(k,'x',i,'=',k*i)
+        
+        
+        
+      
+n=int(input("enter no of rows: "))#pattren in 1to 10 and its avg...
+num=1
+count=0
+sum=0
+for i in range(0,n):
+    for j in range(0,i+1):
+        print(num, end=" ")
+        num+=1
+        sum+=num
+        count+=1
+    print("\n")   
+print(count)
+k=sum-count
+print(k)
+avg=k/count
+print("avg is: ",avg)
+n=int(input("enter no of rows: "))#pattrens....
+for i in range(0,n):
+    for j in range(0,i+1):
+        print("*", end=" ")
+    print("\n")
+
+
+
+
+for x in range(6):
+    if x==3 or x==6:
+        continue
+    print(x)
+    
+    
+    
+    
+    
+    list=[2,3,5,8,9,10,7]
+even,odd=0,0
+for num in list:
+    if num % 2==0:
+        even+=1
+    else:
+        odd+=1
+print("even numbers in list",even)
+print("odd numbers in list",odd)
+
+
+
